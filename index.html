@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção sobre Mim -->
+    <section id="sobre-mim">
+        <h1>Um pouco sobre mim</h1>
+        <p>Olá! Sou um estudante de programação, atualmente estou tentando uma transição de carreira, estou rodeado de colegas e amigos que trabalham na área e isso me influenciou bastante. Tenho 25 anos, sou de Fortaleza-CE, mas moro em Curitiba-PR há quase dois anos.</p>
+    </section>
+
+    <!-- Seção formação -->
+    <section id="formacao">
+        <h1>Formação e Idiomas</h1>
+        <ul>
+            <li>Graduação: Análise e Desenvolvimentos de Sistemas</li>
+            <li>Cursos online na UDEMY: Lógica da Progamação, Curso de JavaScript e TypeScript do básico ao avançado JS/TS, Programação em Python do básico ao avançado
+            
+            </li>
+            <li>Idiomas: Português (nativo), Inglês (B2: intermediário avançado)</li>
+        </ul>
+    </section>
+
+    <!-- Seção portfólio -->
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <p>Aqui estão alguns dos meus projetos:</p>
+        <ul>
+            <li>Roleta Interativa para Clientes</li>
+            <li>Gerenciador de Funcionários</li>
+            <li>Aplicação de Transparência Financeira</li>
+            <div id="social-links">
+            <a href="https://github.com/maksonbarbosa" target="_blank" id="github-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="icon"> Visite meu GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/maksonbarbosa/" target="_blank" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn" class="icon">
+                LinkedIn
+            </a>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Seção contato -->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="contact-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 - Meu Site Pessoal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
